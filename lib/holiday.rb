@@ -65,7 +65,7 @@ def all_supplies_in_holidays(holiday_hash)
       new_key2.each do |element|
         element.capitalize!
       end 
-      new_key2.join
+      new_key2 = new_key2.join
       puts "  #{new_key2}: #{value.join(", ")}"
     end 
   end 
